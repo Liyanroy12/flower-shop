@@ -1,0 +1,112 @@
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 850px;
+    width: 1348px;
+    background: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    margin-left: 50px;
+}
+
+.header-content h1 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-content p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+}
+
+.header-btn {
+    width: 177px;
+    height: 64px;
+    padding: 20px 43px 20px 43px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    margin-top: 32px;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-content-image img {
+    width: 500px;
+    height: 800px;
+}
+/* Header mobile responsive */
