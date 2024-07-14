@@ -110,3 +110,11 @@
     height: 800px;
 }
 /* Header mobile responsive */
+@media screen and (max-width: 576px) {
+    .header{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        gap: 50px;
+    }
+}
